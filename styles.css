@@ -14,9 +14,10 @@ html, body {
 .wrapper {
     height: 100px;
     width: 360px;
-    cursor: default;
+    position: relative;
     background: linear-gradient(135 deg, #14ffe9, #ffeb3b, #ff00e0);
     border-radius: 10px;
+    cursor: default;
     animation: animate 1.5s linear infinite;
 }
 
@@ -36,8 +37,9 @@ html, body {
     text-align: center;
 }
 
-.wrapper .display #time{
+.display #time{
     line-height: 85px;
+    color: #fff;
     font-size: 50px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -61,7 +63,7 @@ html, body {
 }
 
 .wrapper span :first-child{
-    filter: blur(10px);
+    filter: blur(7px);
 }
 
 .wrapper span :last-child{
