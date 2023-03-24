@@ -52,3 +52,18 @@ html, body {
         filter: hue-rotate(360deg);
     }
 }
+
+.wrapper span {
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    border-radius: 10px;
+}
+
+.wrapper span :first-child{
+    filter: blur(10px);
+}
+
+.wrapper span :last-child{
+    filter: blur(20px);
+}
